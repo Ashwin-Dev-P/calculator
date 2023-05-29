@@ -1,0 +1,111 @@
+:root {
+	--primary-color: #222831;
+	--secondary-color: #393e46;
+	--tertiary-color: #00adb5;
+	--quaternary-color: #eeeeee;
+}
+
+/* * {
+	outline: solid red;
+} */
+
+html,
+body {
+	margin: 0%;
+}
+header {
+	background-color: var(--primary-color);
+	color: var(--quaternary-color);
+}
+
+h1 {
+	margin: 0%;
+}
+label {
+	visibility: hidden;
+}
+
+table {
+	border: 2px solid black;
+}
+
+th {
+	background-color: var(--primary-color);
+	color: var(--quaternary-color);
+}
+tr {
+	background-color: var(--ternary-color);
+}
+
+td,
+th {
+	padding: 5%;
+	border: 1px solid var(--secondary-color);
+}
+
+input {
+	padding: 0%;
+	margin: 0%;
+}
+
+.my-text-center {
+	text-align: center;
+}
+
+.my-flex-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-flex-item {
+	align-self: center;
+	justify-self: center;
+}
+
+.my-w-100 {
+	width: 100%;
+}
+
+.my-h-100 {
+	height: 100%;
+}
+
+.my-w-80 {
+	width: 80%;
+}
+
+.my-p-10 {
+	padding: 10%;
+}
+
+.my-pt-5 {
+	padding-top: 5%;
+}
+
+.my-px-10 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.my-py-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.my-my-5 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.my-mx-5 {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.border-radius {
+	border-radius: 8px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
